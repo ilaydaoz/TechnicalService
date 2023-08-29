@@ -27,16 +27,15 @@
 
 
 <body>
-    @await Component.InvokeAsync("_HeadPartial")
+           @await Component.InvokeAsync("_HeadPartial")
 
     <div class="tm-container">
         <div class="parallax-window" data-parallax="scroll" data-image-src="~/templatemo_547_real_dynamic/img/real-dynamic-banner-01.jpg">
         </div>
     </div>
 
-    @await  Component.InvokeAsync("_Description")
+            @await Component.InvokeAsync("_Description")
 
-            <!-- Testimonials -->
             @await Component.InvokeAsync("_TestimonialPartial")
            
             @await Component.InvokeAsync("_FooterPartial")
